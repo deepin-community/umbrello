@@ -1,0 +1,8 @@
+umbrello: no-manual-page usr/bin/po2xmi5
+umbrello: no-manual-page usr/bin/xmi2pot5
+# heading templates for new sources
+umbrello: incorrect-path-for-interpreter usr/share/umbrello5/headings/*
+# heading templates for new sources
+umbrello: unusual-interpreter usr/share/umbrello5/headings/*
+# heading templates for new sources
+umbrello: script-not-executable usr/share/umbrello5/headings/*

@@ -1,0 +1,157 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: umbrello
+Upstream-Contact: Emmanuel Lepage Vallee <elv1313@gmail.com>
+                  Jeremy Paul Whiting <jpwhiting@kde.org>
+                  Ralf Habacker <ralf.habacker@freenet.de>
+Source: http://www.kde.org/download/
+
+Files: *
+Copyright: 2003, Alexander Blum <blum@kewbee.de>
+           2011, Andi Fischer <andi.fischer@hispeed.ch>
+           2003, Andrew Sutton <asutton@cs.kent.edu>
+           2007, Aurélien Gâteau <agateau@kde.org>
+           2003, Brian Thomas <brian.thomas@gsfc.nasa.gov>
+           2003, David Hugh-Jones <hughjonesd@yahoo.co.uk>
+           2006, Gael de Chalendar (aka Kleag) <kleag@free.fr>
+           2001, Gustavo Madrigal <gmadrigal@nextphere.com>
+           2002, Heiko Nardmann <h.nardmann@secunet.de>
+           2007, Jari-Matti Mäkelä <jmjm@iki.fi>
+           2002-2003, Luis De la Parra <lparrab@gmx.net>
+           2003, Nikolaus Gradwohl <guru@local-guru.net>
+           1999-2001, Objects by Design, Inc.
+           2002-2003, Oliver Kellogg <okellogg@users.sourceforge.net>
+           2001-2002, Paul Hensgen <phensgen@users.sourceforge.net>
+           2011-2012, Ralf Habacker <ralf.habacker@freenet.de>
+           2005, Rene Meyer <rene.meyer@sturmit.de>
+           2002, Roberto Raggi <roberto@kdevelop.org>
+           2002-2013, Umbrello UML Modeller Authors <uml-devel@uml.sf.net>
+           2002, Vincent Decorges <vincent.decorges@eivd.ch>
+License: GPL-2+
+
+Files: umbrello/codeimport/kdevcppparser/assignFunctor.hpp
+       umbrello/codeimport/kdevcppparser/position.h
+       umbrello/codeimpwizard/codeimportingwizard.cpp
+       umbrello/codeimpwizard/codeimportingwizard.h
+       umbrello/codeimpwizard/codeimpselectpage.cpp
+       umbrello/codeimpwizard/codeimpselectpage.h
+       umbrello/codeimpwizard/codeimpstatuspage.cpp
+       umbrello/codeimpwizard/codeimpstatuspage.h
+       umbrello/codeimpwizard/codeimpthread.cpp
+       umbrello/codeimpwizard/codeimpthread.h
+       umbrello/debug/debug_utils.cpp
+       umbrello/debug/debug_utils.h
+       umbrello/dialogs/codetextedit.cpp
+       umbrello/dialogs/codetextedit.h
+       umbrello/dialogs/codetexthighlighter.cpp
+       umbrello/dialogs/codetexthighlighter.h
+       umbrello/icon_utils.cpp
+       umbrello/icon_utils.h
+       unittests/TEST_basictypes.cpp
+       unittests/TEST_classifier.cpp
+       unittests/TEST_cppwriter.cpp
+       unittests/TEST_pythonwriter.cpp
+Copyright: 2011, Andi Fischer <andi.fischer@hispeed.ch>
+           2008, Andreas Fischer <andi.fischer@hispeed.ch>
+           2006, Gael de Chalendar (Kleag) <kleag@free.fr>
+           2008, Jean Vittor <jean.vittor@free.fr>
+           2010, Nokia Corporation and/or its subsidiary(-ies) <qt-info@nokia.com>
+           2005, Oliver M. Kellogg <okellogg@users.sourceforge.net>
+           2012, Ralf Habacker <ralf.habacker@freenet.de>
+           2010, Umbrello UML Modeller Authors <uml-devel@uml.sf.net>
+License: GPL-2 or GPL-3 or GPL-KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ versions 2 and 3 can be found in `/usr/share/common-licenses/GPL-2' and
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: umbrello/codeimport/kdevcppparser/ast.cpp
+       umbrello/codeimport/kdevcppparser/ast.h
+       umbrello/codeimport/kdevcppparser/driver.cpp
+       umbrello/codeimport/kdevcppparser/driver.h
+       umbrello/codeimport/kdevcppparser/errors.cpp
+       umbrello/codeimport/kdevcppparser/errors.h
+       umbrello/codeimport/kdevcppparser/lexer.cpp
+       umbrello/codeimport/kdevcppparser/lexer.h
+       umbrello/codeimport/kdevcppparser/lookup.cpp
+       umbrello/codeimport/kdevcppparser/lookup.h
+       umbrello/codeimport/kdevcppparser/parser.cpp
+       umbrello/codeimport/kdevcppparser/parser.h
+       umbrello/codeimport/kdevcppparser/preprocesslexer.cpp
+       umbrello/codeimport/kdevcppparser/preprocesslexer.h
+       umbrello/codeimport/kdevcppparser/tree_parser.cpp
+       umbrello/codeimport/kdevcppparser/tree_parser.h
+Copyright: 1999-2000, Harri Porten (porten@kde.org)
+           2008, Jean Vittor <jean.vittor@free.fr>
+           2002-2003, Roberto Raggi <roberto@kdevelop.org>
+License: LGPL-2+
+
+Files: doc/*
+Copyright: 2001-2002, Paul Hensgen <phensgen@users.sourceforge.net>
+           2002-2013 Umbrello UML Modeller Authors <uml-devel@uml.sf.net>
+License: GFDL-1.2+
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this program; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".

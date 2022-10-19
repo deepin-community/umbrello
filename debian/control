@@ -1,0 +1,56 @@
+Source: umbrello
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.8~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 1.1.0~),
+               gettext,
+               libkf5archive-dev,
+               libkf5completion-dev,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5crash-dev,
+               libkf5doctools-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5itemmodels-dev,
+               libkf5kcmutils-dev,
+               libkf5kdelibs4support-dev,
+               libkf5kio-dev,
+               libkf5texteditor-dev,
+               libkf5threadweaver-dev,
+               libkf5widgetsaddons-dev,
+               libkf5windowsystem-dev,
+               libkf5xmlgui-dev,
+               libqt5svg5-dev (>= 5.2.0~),
+               libqt5webkit5-dev (>= 5.2.0~),
+               libxml2-dev,
+               libxslt1-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.2.0~),
+               xauth,
+               xvfb,
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://www.kde.org/
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/umbrello
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/umbrello.git
+
+Package: umbrello
+Architecture: any
+Section: devel
+Depends: kinit, ${misc:Depends}, ${shlibs:Depends}
+Suggests: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Description: UML modelling tool and code generator
+ Umbrello UML Modeller is a Unified Modelling Language diagram editor for KDE.
+ It can create diagrams of software and other systems in the industry-standard
+ UML format, and can also generate code from UML diagrams in a variety of
+ programming languages.
+ .
+ This package is part of the KDE Software Development Kit module.

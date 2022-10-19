@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+
+l10npkgs_firstversion_ok := 4:16.04.3-3~
+include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
+
+%:
+	dh $@ --with kf5
+
+override_dh_auto_configure:
+	dh_auto_configure -Skf5 -- -DBUILD_KF5=ON
+
+override_dh_auto_test:
+	xvfb-run -a dh_auto_test
+
+execute_after_dh_auto_install:
+	# drop translations of unbuilt components
+	rm debian/umbrello/usr/share/locale/*/LC_MESSAGES/umbrello_kdevphp.mo
+	rm debian/umbrello/usr/share/locale/*/LC_MESSAGES/umbrello_kdevphp5.mo
+
+override_dh_gencontrol: l10npkgs_firstversion_ok
+	dh_gencontrol
